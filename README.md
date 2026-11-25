@@ -27,13 +27,13 @@ The APK is sideload-only for now (not on the Play Store).
 - **Insights**: completion by day, perfect days, streaks, habit consistency, and work done by category.
 - A centre **+** button adds a task, habit or event from any screen.
 
-Data stays on your device. There's no account or cloud sync.
+Plans are saved on your device. There are no accounts. To keep plans the same on more than one device, turn on sync in Settings: it gives you a secret code to enter on your other devices. Plans are encrypted on the device before they're sent, so the server never sees them.
 
 ## What I built it with
 
 - Expo / React Native + TypeScript (Android, iOS and web from one codebase)
-- On-device storage
-- GitHub Actions that build and publish an Android APK on every push
+- On-device storage, plus optional end-to-end encrypted sync through Supabase
+- A GitHub Actions workflow that builds and publishes the Android APK when I start it
 - Web version hosted on Vercel
 
 ## Screenshots
