@@ -38,5 +38,30 @@ Data stays on your device. There's no account or cloud sync.
 
 ## Screenshots
 
-<!-- Add screenshots to a /screenshots folder and list them here, e.g.
-<img src="screenshots/today.png" width="250"> -->
+<picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/wide-today-dark.png"><img src="screenshots/wide-today-light.png" alt="Sunwise on a laptop: side bar and the Today timeline" width="800"></picture>
+
+<table>
+  <tr>
+    <td align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/phone-today-dark.png"><img src="screenshots/phone-today-light.png" alt="Today timeline" width="160"></picture><br><sub>Today</sub></td>
+    <td align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/phone-checklist-dark.png"><img src="screenshots/phone-checklist-light.png" alt="A plan card with its checklist open" width="160"></picture><br><sub>Checklists</sub></td>
+    <td align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/phone-tasks-dark.png"><img src="screenshots/phone-tasks-light.png" alt="Tasks inbox with priorities and deadlines" width="160"></picture><br><sub>Tasks</sub></td>
+    <td align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/phone-habits-dark.png"><img src="screenshots/phone-habits-light.png" alt="Habits with streaks" width="160"></picture><br><sub>Habits</sub></td>
+    <td align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/phone-insights-dark.png"><img src="screenshots/phone-insights-light.png" alt="Weekly insights" width="160"></picture><br><sub>Insights</sub></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/wide-tasks-dark.png"><img src="screenshots/wide-tasks-light.png" alt="Tasks as its own page on a wide screen" width="400"></picture><br><sub>Tasks page with the side bar</sub></td>
+    <td align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="screenshots/wide-insights-dark.png"><img src="screenshots/wide-insights-light.png" alt="Insights on a wide screen" width="400"></picture><br><sub>Insights on a wide screen</sub></td>
+  </tr>
+</table>
+
+The screenshots above follow your GitHub theme. The app has both, and follows the device unless you pick one in Settings:
+
+<table>
+  <tr>
+    <td align="center"><img src="screenshots/phone-today-dark.png" alt="Today, dark" width="200"></td>
+    <td align="center"><img src="screenshots/phone-today-light.png" alt="Today, light" width="200"></td>
+  </tr>
+</table>
